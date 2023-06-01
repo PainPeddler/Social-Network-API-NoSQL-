@@ -1,0 +1,20 @@
+{
+    "name": "social-media-api",
+    "version": "1.0.0",
+    "description": "Mongoose social media API",
+    "main": "server.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon index"
+    },
+    "dependencies": {
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "mongoose": "^6.9.2",
+      "dayjs": "^1.10.4"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.9"
+    }
+  }
